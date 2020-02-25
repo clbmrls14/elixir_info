@@ -1,4 +1,4 @@
-#This site can be found at [this site](#https://whyelixir.herokuapp.com/)
+#This site can be found [here](#https://whyelixir.herokuapp.com/)
 
 
 # digital_media
