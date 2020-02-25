@@ -1,25 +1,25 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
+    <h3>
       A powerful, functional language that anyone can use.
-    </p>
+    </h3>
 
     <img alt="infographic" class="infographic" src="../assets/infographic.png" />
 
     <div class="tan_border">
-    <h3>Why use Elixir?</h3>
+    <h2>Why use Elixir?</h2>
       <ul>
-        <li>
+        <li class="info-text">
           Hundreds of companies use Elixir for its scalability and fault-tolerance. Elixir code runs 
           inside lightweight execution threads that allow many processes to be run currently and efficiently.
         </li>
-        <li>
+        <li class="info-text">
           Companies like Pinterest and WhatsApp have found great success using Elixir to handle 10 
           times the amount of traffic using half the servers. Now with the Pheonix framework for web 
           development, you build entire web applications in Elixir.
         </li>
-        <li>
+        <li class="info-text">
           Elixir has the powerful benefits of running on the Erlang VM, with many modern features 
           common to modern languages.
         </li>
@@ -32,56 +32,58 @@
       </ul>
     </div>
 
-  <div class="erlang">
-    <h3>Built on Erlang</h3>
-    <h4>What is Erlang?</h4>
-    <p>
-      <img class="big_img" alt="Erlang logo" src="../assets/erlang_logo.png" />
-      Erlang is a functional programming language used to build massively scalable, highly available 
-      real-time applications. Erlang was developed as a way to manage telecom systems to ensure that 
-      processes could be independent of each other. This meant the system could be handle a huge 
-      amount of calls, and an error in a single call wouldn't interfere with any other calls. Elixir 
-      was built on the Erlang VM.
-    </p>
-    <br>
-    <p>
-      Because of it's close relationship with Erlang, Elixir has the benefits of being a nine-nines 
-      language, powerful, easily distributable, and scalable. 
-    </p>
-    <p><a href="https://www.erlang.org/">Learn more about Erlang</a></p>
-  </div>
+    <div class="erlang">
+      <h2>Built on Erlang</h2>
+      <h3>What is Erlang?</h3>
+      <p class="info-text">
+        <img class="big_img" alt="Erlang logo" src="../assets/erlang_logo.png" />
+        Erlang is a functional programming language used to build massively scalable, highly available 
+        real-time applications. Erlang was developed as a way to manage telecom systems to ensure that 
+        processes could be independent of each other. This meant the system could be handle a huge 
+        amount of calls, and an error in a single call wouldn't interfere with any other calls. Elixir 
+        was built on the Erlang VM.
+      </p>
+      <br>
+      <p class="info-text">
+        Because of it's close relationship with Erlang, Elixir has the benefits of being a nine-nines 
+        language, powerful, easily distributable, and scalable. 
+      </p>
+      <p class="info-text"><a href="https://www.erlang.org/">Learn more about Erlang</a></p>
+    </div>
 
-  <div class="tan_border">
-    <h3>Scalability</h3>
-    <img class="snippet" alt="code to spawn a process" src="../assets/elixir_process.png" />
-    <p>
-      Elixir makes it easy to spin up lightweight, isolated processes that can run concurrently. 
-    </p>
-    <h3>Fault-Tolerance</h3>
-    <img class="snippet" alt="code to spawn a process" src="../assets/elixir_error.png" />
-    <p>
-      Coping with failure is nobody’s favorite part of programming, but Elixir makes it easy. 
-      Elixir is a nine-nines language, meaning it’s easy to have only milliseconds of downtime per year!
-    </p>
-    <h3>Functional Programming</h3>
-    <img class="snippet" alt="code to spawn a process" src="../assets/elixir_functional.png" />
-    <p>
-      It’s not always easy to get used to functional programming, but once you master it, your life 
-      will change forever. Elixir is great for students or veterans of functional programming alike.
-    </p>
-  </div>
-    <h3>Want to Learn More?</h3>
-    <h4>Visit <a href="https://elixir-lang.org/">elixir-lang.org</a> to learn more</h4>
-    <p>
-      With a growing community and plenty of excellent resources to learn from, there’s no better time 
-      to pick up Elixir. Use it to gain an advantage over your competition before it explodes!
-    </p>
-    <h4>Also check out...</h4>
-    <ul>
-      <li><a href="https://thinkingelixir.com/">thinkingelixir.com</a></li>
-      <li><a href="https://hexdocs.pm/elixir/Kernel.html">hexdocs.pm/elixir</a></li>
-      <li><a href="https://github.com/elixir-lang/elixir">github.com/elixir-lang/elixir</a></li>
-    </ul>
+    <div class="tan_border">
+      <h2>Scalability</h2>
+      <img class="snippet" alt="code to spawn a process" src="../assets/elixir_process.png" />
+      <p class="info-text snippet-text">
+        Elixir makes it easy to spin up lightweight, isolated processes that can run concurrently. 
+      </p>
+      <h2>Fault-Tolerance</h2>
+      <img class="snippet" alt="code to spawn a process" src="../assets/elixir_error.png" />
+      <p class="info-text snippet-text">
+        Coping with failure is nobody’s favorite part of programming, but Elixir makes it easy. 
+        Elixir is a nine-nines language, meaning it’s easy to have only milliseconds of downtime per year!
+      </p>
+      <h2>Functional Programming</h2>
+      <img class="snippet" alt="code to spawn a process" src="../assets/elixir_functional.png" />
+      <p class="info-text snippet-text">
+        It’s not always easy to get used to functional programming, but once you master it, your life 
+        will change forever. Elixir is great for students or veterans of functional programming alike.
+      </p>
+    </div>
+    <div class="erlang">
+      <h2>Want to Learn More?</h2>
+      <h3>Visit <a href="https://elixir-lang.org/">elixir-lang.org</a> to learn more</h3>
+      <p class="info-text">
+        With a growing community and plenty of excellent resources to learn from, there’s no better time 
+        to pick up Elixir. Use it to gain an advantage over your competition before it explodes!
+      </p>
+      <h3>Also check out...</h3>
+      <ul>
+        <li class="info-text"><a href="https://thinkingelixir.com/">thinkingelixir.com</a></li>
+        <li class="info-text"><a href="https://hexdocs.pm/elixir/Kernel.html">hexdocs.pm/elixir</a></li>
+        <li class="info-text"><a href="https://github.com/elixir-lang/elixir">github.com/elixir-lang/elixir</a></li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -96,10 +98,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
+/* h3 {
   margin: 40px 0 0;
   padding: 1em;
-}
+} */
 ul {
   list-style-type: none;
   padding: 0;
@@ -124,6 +126,10 @@ div {
   vertical-align: top;
   overflow: auto;
 }
+
+.info-text {
+  font-size: 16pt;
+}
 .tan_border {
   background-color: #DAD2BF;
 }
@@ -147,4 +153,7 @@ div {
 .snippet {
   border-radius: 15px;
 }
+ .snippet-text {
+   margin: 0.5em 4em 2em 4em;
+ }
 </style>
