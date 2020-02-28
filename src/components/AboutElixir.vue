@@ -129,7 +129,7 @@ div {
 
 .info-text {
   font-size: 16pt;
-  text-align: left;
+  text-align: center;
 }
 .tan_border {
   background-color: #DAD2BF;
