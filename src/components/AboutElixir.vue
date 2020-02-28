@@ -129,6 +129,7 @@ div {
 
 .info-text {
   font-size: 16pt;
+  text-align: left;
 }
 .tan_border {
   background-color: #DAD2BF;
@@ -153,7 +154,7 @@ div {
 .snippet {
   border-radius: 15px;
 }
- .snippet-text {
+.snippet-text {
    margin: 0.5em 4em 2em 4em;
  }
 </style>
